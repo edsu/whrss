@@ -1,8 +1,8 @@
 The [White House Blog] [RSS feed] appears to be dead, even though there is new
 content on the website.
 
-This is a silly hack to create an RSS feed by scraping the White House blog 
-website. It is updated every hour and published [here]
+This is a silly hack to create an RSS feed by scraping the White House blog
+website. It is updated every hour and published [here].
 
 The main impetus for doing this was to make sure that [whitehouse_diff]
 continues to work.
