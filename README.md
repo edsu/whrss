@@ -1,5 +1,5 @@
-The [White House Blog] [RSS feed] appears to be dead, even though there is new
-content on the website.
+The [White House Blog] [RSS feed] appears to be updated very sporadically: not
+all new content published on the "blog" makes it into the RSS feed.
 
 This is a silly hack to create an RSS feed by scraping the White House blog
 website. It is updated every hour and published [here].
