@@ -3,6 +3,7 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from dateutil.parser import parse as parse_date
+from xml.sax.saxutils import escape
 
 def get_item(e):
     created = parse_date(e.select('.views-field-created')[0].text)
@@ -14,7 +15,7 @@ def get_item(e):
     if url == "https://www.whitehouse.gov/1600daily":
         return None
 
-    title = a.text
+    title = escape(a.text)
     return """<item><title>%s</title><link>%s</link><guid>%s</guid><description>%s</description><pubDate>%s</pubDate></item>""" % (title, url, url, title, created)
 
 html = urlopen("https://www.whitehouse.gov/blog").read()
