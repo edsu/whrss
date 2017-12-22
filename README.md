@@ -2,6 +2,6 @@ The [White House Website] is currently a WordPress site but the RSS feed appears
 
 The main impetus for doing this was to use [diffengine] to publish [whitehouse_diff]. But maybe you'll find the RSS useful for other things too?
 
-[White House Blog]: https://www.whitehouse.gov/news/ 
+[White House Website]: https://www.whitehouse.gov/news/ 
 [diffengine]: https://github.docnow/diffengine
 [whitehouse_diff]: https://twitter.com/whitehouse_diff
