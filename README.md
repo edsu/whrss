@@ -1,8 +1,11 @@
-The [White House Website] is currently a WordPress site but the RSS feed appears
-to be disabled. *whrss.py* generates an  RSS feed by scraping the White House
-blog website. I run it every 30 minutes and publish it at:
+During the Trump administration the [White House Website] disabled the RSS feed for its Wordpress site. *whrss.py* generates an RSS feed by scraping the White House blog website. During the four long years of the Trump administration I ran this script from cron every 30 minutes to create an RSS feed.
+
 
 [https://inkdroid.org/rss/whitehouse.xml](https://inkdroid.org/rss/whitehouse.xml)
+
+On January 20, 2021 whitehouse.gov began providing an RSS feed again, and so the script was retired, and the old RSS URL permanently redirected to the new location.
+
+[https://whitehouse.gov/feed/](https://whitehouse.gov/feed)
 
 The main impetus for doing this was to use [diffengine] to publish [whitehouse_diff]. But maybe you'll find the RSS useful for other things too?
 
