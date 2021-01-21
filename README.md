@@ -1,5 +1,4 @@
-During the Trump administration the [White House Website] disabled the RSS feed for its Wordpress site. *whrss.py* generates an RSS feed by scraping the White House blog website. During the four long years of the Trump administration I ran this script from cron every 30 minutes to create an RSS feed.
-
+During the Trump administration the [White House Website] disabled the RSS feed for its Wordpress site. *whrss.py* generated an RSS feed by scraping the White House blog website. During the four long years of the Trump administration I ran this script from cron every 30 minutes to create an RSS feed that was available at:
 
 [https://inkdroid.org/rss/whitehouse.xml](https://inkdroid.org/rss/whitehouse.xml)
 
